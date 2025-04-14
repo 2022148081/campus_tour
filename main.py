@@ -1,6 +1,4 @@
 import streamlit as st
-
-# 모듈 불러오기
 from state_initializer import initialize_session_state
 from text_constants import TEXT, is_korean
 from department_tour import run_department_tour
